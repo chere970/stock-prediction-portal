@@ -1,9 +1,12 @@
 import React from 'react'
 import Button from './Button'
+import Header from './Header'
+import Footer from './Footer'
 
 const Main = () => {
   return (
     <>
+    
       <div className='container'>
         <div className='p-5 text-cente bg-light-dark rounded'>
           <h1 className='text-light'> Stock Prediction Portal</h1>
@@ -23,6 +26,7 @@ have only one configuration module to rule all your instances</p>
         </div>
 
       </div>
+     
     </>
   )
 }
